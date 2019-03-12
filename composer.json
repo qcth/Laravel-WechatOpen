@@ -1,0 +1,26 @@
+{
+    "name": "qcth/laravel_open",
+    "description": "this is weixin plug-in",
+    "authors": [
+        {
+            "name": "qcth",
+            "email": "qcth@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "qcth\\laravel_open\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "qcth\\laravel_open\\WechatServiceProvider"
+            ],
+            "aliases": {
+                "Wechat": "qcth\\laravel_open\\WechatFacade"
+            }
+        }
+    }
+}
