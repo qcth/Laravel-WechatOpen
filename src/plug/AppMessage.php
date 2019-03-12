@@ -1,9 +1,9 @@
 <?php
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
-use qcth\laravel_open\plug_trait\CurlTrait;
+use qcth\laravel_wechat_open\plug_trait\CurlTrait;
 
 /**
  * 消息处理

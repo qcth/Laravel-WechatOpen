@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 把数组格式成url参数
  * Trait FormateUrlParamTicketTrait
- * @package qcth\app\library_ext
+ * 
  */
 trait FormateUrlParamTrait {
 

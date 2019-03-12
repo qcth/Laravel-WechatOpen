@@ -1,6 +1,6 @@
 <?php
 
-namespace qcth\laravel_open;
+namespace qcth\laravel_wechat_open;
 
 use Illuminate\Support\ServiceProvider;
 

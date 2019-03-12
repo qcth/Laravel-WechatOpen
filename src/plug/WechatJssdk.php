@@ -1,11 +1,11 @@
 <?php
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
 
-use qcth\laravel_open\plug_trait\GetRandStrTrait;
-use qcth\laravel_open\plug_trait\JssdkTicketTrait;
+use qcth\laravel_wechat_open\plug_trait\GetRandStrTrait;
+use qcth\laravel_wechat_open\plug_trait\JssdkTicketTrait;
 
 /**
  * 微信分享

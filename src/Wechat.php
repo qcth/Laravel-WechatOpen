@@ -1,6 +1,6 @@
 <?php
 
-namespace qcth\laravel_open;
+namespace qcth\laravel_wechat_open;
 
 
 /**
@@ -16,7 +16,7 @@ class Wechat{
     public function __call($plug_name, $arguments=null)
     {
 
-        $class_name='\\qcth\\laravel_open\\plug\\'.ucfirst($plug_name);
+        $class_name='\\qcth\\laravel_wechat_open\\plug\\'.ucfirst($plug_name);
 
         if($this->link instanceof $class_name){
             return $this->link;

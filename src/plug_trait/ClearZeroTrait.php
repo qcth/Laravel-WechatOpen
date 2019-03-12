@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 接口调用次数清零
  * Trait ClearZeroTrait
- * @package qcth\app\library_ext
+ * 
  */
 trait ClearZeroTrait {
 

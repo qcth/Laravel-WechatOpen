@@ -1,13 +1,13 @@
 <?php
 
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
-use qcth\laravel_open\plug_trait\CurlTrait;
-use qcth\laravel_open\plug_trait\GetRandStrTrait;
-use qcth\laravel_open\plug_trait\MakeSignTrait;
-use qcth\laravel_open\plug_trait\XmlTrait;
+use qcth\laravel_wechat_open\plug_trait\CurlTrait;
+use qcth\laravel_wechat_open\plug_trait\GetRandStrTrait;
+use qcth\laravel_wechat_open\plug_trait\MakeSignTrait;
+use qcth\laravel_wechat_open\plug_trait\XmlTrait;
 
 /**
  * 提现到零钱,但未测试

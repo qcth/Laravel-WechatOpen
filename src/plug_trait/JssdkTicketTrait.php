@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 获取jssdk  ticket
  * Trait JssdkTicketTrait
- * @package qcth\app\library_ext
+ * 
  */
 trait JssdkTicketTrait {
     use TokenTrait, CurlTrait;

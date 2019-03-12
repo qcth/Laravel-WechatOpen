@@ -1,6 +1,6 @@
 <?php
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
 /**

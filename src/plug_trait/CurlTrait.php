@@ -1,11 +1,11 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * Trait CurlTrait 模拟post或get请求
- * @package qcth\app\library_ext
+ * 
  */
 trait CurlTrait {
 

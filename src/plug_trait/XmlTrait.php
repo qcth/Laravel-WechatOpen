@@ -1,11 +1,11 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * Trait CurlTrait 数组转xml 或 xml转数组
- * @package qcth\app\library_ext
+ * 
  */
 trait XmlTrait {
 

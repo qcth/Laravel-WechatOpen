@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 生成随机字符串
  * Trait GetRandStrTicketTrait
- * @package qcth\app\library_ext
+ *
  */
 trait GetRandStrTrait {
 

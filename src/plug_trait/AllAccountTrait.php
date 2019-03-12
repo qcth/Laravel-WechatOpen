@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 拉取已授权的部分账号或所有账号
  * Trait AllAccountTrait
- * @package qcth\app\library_ext
+ *
  */
 trait AllAccountTrait {
 

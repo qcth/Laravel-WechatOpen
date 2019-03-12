@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 微信签名
  * Trait MakeSignTrait
- * @package qcth\app\library_ext
+ * 
  */
 trait MakeSignTrait {
 

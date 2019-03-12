@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 获取第三方平台, access_token 或 公众平台或小程序的 access_token
  * Trait TokenTrait
- * @package qcth\app\library_ext
+ * 
  */
 trait TokenTrait {
 

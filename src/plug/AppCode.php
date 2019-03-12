@@ -1,12 +1,12 @@
 <?php
 
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
 
-use qcth\open\plug_trait\CurlTrait;
-use qcth\open\plug_trait\TokenTrait;
+use qcth\laravel_wechat_open\plug_trait\CurlTrait;
+use qcth\laravel_wechat_open\plug_trait\TokenTrait;
 
 /**
  * 小程序 代码管理

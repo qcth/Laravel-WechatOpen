@@ -1,12 +1,12 @@
 <?php
 
 
-namespace qcth\laravel_open\plug;
+namespace qcth\laravel_wechat_open\plug;
 
 
 
-use qcth\laravel_open\plug_trait\CurlTrait;
-use qcth\laravel_open\plug_trait\TokenTrait;
+use qcth\laravel_wechat_open\plug_trait\CurlTrait;
+use qcth\laravel_wechat_open\plug_trait\TokenTrait;
 
 /**
  * 设置小程序“扫普通链接二维码打开小程序”能力

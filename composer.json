@@ -1,5 +1,5 @@
 {
-    "name": "qcth/laravel_open",
+    "name": "qcth/Laravel-WechatOpen",
     "description": "this is weixin plug-in",
     "authors": [
         {
@@ -10,16 +10,16 @@
     "require": {},
     "autoload": {
         "psr-4":{
-            "qcth\\laravel_open\\":"src/"
+            "qcth\\laravel_wechat_open\\":"src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "qcth\\laravel_open\\WechatServiceProvider"
+                "qcth\\laravel_wechat_open\\WechatServiceProvider"
             ],
             "aliases": {
-                "Wechat": "qcth\\laravel_open\\WechatFacade"
+                "Wechat": "qcth\\laravel_wechat_open\\WechatFacade"
             }
         }
     }

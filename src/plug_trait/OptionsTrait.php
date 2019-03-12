@@ -1,12 +1,12 @@
 <?php
 
-namespace qcth\laravel_open\plug_trait;
+namespace qcth\laravel_wechat_open\plug_trait;
 
 
 /**
  * 设置或获取 公众号或小程序的 选项设置
  * Trait OptionsTrait
- * @package qcth\app\library_ext
+ *
  */
 trait OptionsTrait {
 
