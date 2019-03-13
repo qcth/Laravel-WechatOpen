@@ -12,7 +12,7 @@ class Common{
     //标识是小程序还是公众平台
     protected $type_name;
 
-    public function __construct($config){
+    public function __construct($config=null){
 
         if(!is_null($config)){
             //赋值配置项

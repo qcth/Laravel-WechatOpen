@@ -4,6 +4,8 @@ namespace qcth\laravel_wechat_open;
 
 use Illuminate\Support\ServiceProvider;
 
+use qcth\laravel_wechat_open\Index;
+
 class WechatServiceProvider extends ServiceProvider
 {
 
@@ -19,7 +21,7 @@ class WechatServiceProvider extends ServiceProvider
     {
 
         $this->app->singleton('Wechat',function ($app){
-            return new Wechat($app);
+            return new Index($app);
         });
 
 

@@ -16,10 +16,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "qcth\\laravel_wechat_open\\WechatServiceProvider"
+                "qcth\\laravel_wechat_open\\provider\\WechatServiceProvider"
             ],
             "aliases": {
-                "Wechat": "qcth\\laravel_wechat_open\\WechatFacade"
+                "Wechat": "qcth\\laravel_wechat_open\\facade\\Wechat"
             }
         }
     }
