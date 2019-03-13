@@ -50,13 +50,13 @@ class WechatOauth extends Common {
 	private function request( $type,$callback_url,$param) {
 
         //请求微信地址后,跳回到 $callbak_url 后,携带code参数
-        if(!I('get.code')){
+        if(empty($_GET['code'])){
             $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid={$this->config['weixin']['authorizer_appid']}&redirect_uri={$callback_url}&response_type=code&scope={$type}&state={$param}&component_appid={$this->config['component']['component_appid']}#wechat_redirect";
             header( 'location:' . $url );die;
 
         }
 
-        $url="https://api.weixin.qq.com/sns/oauth2/component/access_token?appid=".$this->config['weixin']['authorizer_appid']."&code=".I('get.code')."&grant_type=authorization_code&component_appid=".$this->config['component']['component_appid']."&component_access_token=".$this->component_access_token();
+        $url="https://api.weixin.qq.com/sns/oauth2/component/access_token?appid=".$this->config['weixin']['authorizer_appid']."&code=".$_GET['code']."&grant_type=authorization_code&component_appid=".$this->config['component']['component_appid']."&component_access_token=".$this->component_access_token();
 
 
         $data=$this->curl( $url );
