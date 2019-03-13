@@ -22,7 +22,7 @@ class WechatLogin extends Common {
 	 */
 	private function request($callback_url,$state,$scope='snsapi_login'){
 
-		if(isset($_GET['code'] && !empty($_GET['code']))){ //通过code获取 access_token openid unionid
+		if(isset($_GET['code']) && !empty($_GET['code'])){ //通过code获取 access_token openid unionid
 
 			$url="https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$this->config['component']['login_appid']."&secret=".$this->config['component']['login_appsecret']."&code=".$_GET['code']."&grant_type=authorization_code";
 			$weixin_data    = $this->curl( $url );
