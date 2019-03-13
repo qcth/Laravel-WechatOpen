@@ -1,6 +1,6 @@
 <?php
 
-namespace qcth\laravel_wechat_open;
+namespace qcth\laravel_wechat_open\facade;
 
 use Illuminate\Support\Facades\Facade;
 
